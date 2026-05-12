@@ -9,7 +9,7 @@ public class Ejercicios {
         }
         return num + sumaConsecutivos(num - 1);
     }
-
+    
     
     public int sumaConsecutivosPasos(int num) {
         System.out.println("El numero es: " + num);

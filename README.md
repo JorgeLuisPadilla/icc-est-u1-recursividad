@@ -19,7 +19,8 @@ Se creó la clase `Ejercicios`, donde se implementaron diferentes métodos recur
 * `sumaConsecutivosPasos(int num)` → muestra paso a paso cómo funciona la recursividad.
 * `getPotencia(int base, int exponente)` → calcula la potencia de un número utilizando recursividad.
 * `sumaDigitos(int num)` → suma los dígitos de un número entero.
-
+![alt text](lib/ejercicios.png)
+![alt text](lib/ejercicios1.png)
 ---
 
 # 2. Clase `App`
@@ -37,7 +38,7 @@ Desde el método `main` se realizan pruebas de:
 * Suma de dígitos.
 
 Además, se muestran los resultados por consola utilizando `System.out.println`.
-
+![alt text](lib/app.png)
 
 # 3. Ejecución del Programa
 
@@ -51,6 +52,8 @@ Se ejecutó correctamente el programa mostrando:
 * El proceso recursivo detallado.
 * El cálculo de potencias.
 * La suma de los dígitos de un número.
+
+![alt text](<lib/Captura de pantalla 2026-05-11 220758.png>)
 
 El proyecto permitió comprender el funcionamiento de la recursividad en Java y cómo las funciones pueden llamarse a sí mismas hasta llegar al caso base.
 
