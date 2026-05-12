@@ -1,18 +1,56 @@
-## Getting Started
+# Práctica: Recursividad en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Datos del Estudiante
 
-## Folder Structure
+* **Nombre:** Jorge Padilla
+* **Curso:** Computación
+* **Fecha:** 11/05/2026
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# 1. Clase `Ejercicios`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**Fecha:** 11/05/2026
 
-## Dependency Management
+**Descripción:**
+Se creó la clase `Ejercicios`, donde se implementaron diferentes métodos recursivos en Java:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* `sumaConsecutivos(int num)` → suma números consecutivos desde `num` hasta 1.
+* `sumaConsecutivosPasos(int num)` → muestra paso a paso cómo funciona la recursividad.
+* `getPotencia(int base, int exponente)` → calcula la potencia de un número utilizando recursividad.
+* `sumaDigitos(int num)` → suma los dígitos de un número entero.
+
+---
+
+# 2. Clase `App`
+
+
+**Fecha:** 11/05/2026
+
+**Descripción:**
+Se creó la clase principal `App`, encargada de ejecutar los métodos de la clase `Ejercicios`.
+Desde el método `main` se realizan pruebas de:
+
+* Suma de consecutivos.
+* Recursividad paso a paso.
+* Potencias.
+* Suma de dígitos.
+
+Además, se muestran los resultados por consola utilizando `System.out.println`.
+
+
+# 3. Ejecución del Programa
+
+
+**Fecha:** 11/05/2026
+
+**Descripción:**
+Se ejecutó correctamente el programa mostrando:
+
+* La suma de los números consecutivos.
+* El proceso recursivo detallado.
+* El cálculo de potencias.
+* La suma de los dígitos de un número.
+
+El proyecto permitió comprender el funcionamiento de la recursividad en Java y cómo las funciones pueden llamarse a sí mismas hasta llegar al caso base.
+
